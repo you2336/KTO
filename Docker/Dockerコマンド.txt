@@ -1,0 +1,16 @@
+<ビルド>
+docker build -t my_project_image .
+
+<ラン>
+docker run -it --rm my_project_image
+
+※プロジェクトディレクトリにdockerfileとrequirements.txtを配置し、そこでのプロンプトで実行する
+
+<ファイル実行>
+python <ファイル名>
+
+<pip>
+-m pip <任意のコマンド>
+
+※pipコマンドはdockerファイルによってラン前に用意できるものである。
+　必要があれば申請することを進める。その場合Githubにアップされているdockerfileを変更する。
